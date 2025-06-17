@@ -26,7 +26,7 @@
     "after:release": "./prepare_release.sh"
   },
   "peerDependencies": {
-    "expo": "~52.0.43",
+    "expo": ">=52.0.43",
     "react": ">=18.0.0",
     "react-native": ">=0.76.0"
   },
