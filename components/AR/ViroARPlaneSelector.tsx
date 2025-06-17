@@ -69,7 +69,7 @@ export class ViroARPlaneSelector extends React.Component<Props, State> {
 
   _getARPlanes() {
     // Always render a fixed number of planes, controlling visibility instead of conditional rendering
-    let arPlanes: JSX.Element[] = [];
+    let arPlanes: React.ReactElement[] = [];
     let numPlanes = this.props.maxPlanes || _maxPlanes;
 
     // Create all plane slots (both detected and placeholder)

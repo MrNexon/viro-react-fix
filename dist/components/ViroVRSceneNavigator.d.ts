@@ -37,7 +37,7 @@ type Props = ViewProps & {
      * describe a scene.
      */
     initialScene?: {
-        scene: () => JSX.Element;
+        scene: () => React.ReactElement;
     };
     /**
      * Called when either the user physically decides to exit vr (hits
